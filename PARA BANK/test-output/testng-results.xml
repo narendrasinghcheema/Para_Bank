@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-29T14:50:15 IST" name="Default suite" finished-at="2023-03-29T14:50:44 IST" duration-ms="28908">
+    <groups>
+    </groups>
+    <test started-at="2023-03-29T14:50:15 IST" name="Default test" finished-at="2023-03-29T14:50:44 IST" duration-ms="28908">
+      <class name="PARA_BANK_Runner.PAPABank_Runner">
+        <test-method signature="Test_with_invalid_Data()[pri:1, instance:PARA_BANK_Runner.PAPABank_Runner@18a3962d]" started-at="2023-03-29T14:50:15 IST" name="Test_with_invalid_Data" finished-at="2023-03-29T14:50:35 IST" duration-ms="20035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_with_invalid_Data -->
+        <test-method signature="Test_with_Blank_Data()[pri:2, instance:PARA_BANK_Runner.PAPABank_Runner@18a3962d]" started-at="2023-03-29T14:50:35 IST" name="Test_with_Blank_Data" finished-at="2023-03-29T14:50:36 IST" duration-ms="1009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_with_Blank_Data -->
+        <test-method signature="Test_with_Valid_Data()[pri:3, instance:PARA_BANK_Runner.PAPABank_Runner@18a3962d]" started-at="2023-03-29T14:50:36 IST" name="Test_with_Valid_Data" finished-at="2023-03-29T14:50:39 IST" duration-ms="2407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_with_Valid_Data -->
+        <test-method signature="Verify_First_Amount()[pri:4, instance:PARA_BANK_Runner.PAPABank_Runner@18a3962d]" started-at="2023-03-29T14:50:39 IST" name="Verify_First_Amount" finished-at="2023-03-29T14:50:39 IST" duration-ms="373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_First_Amount -->
+        <test-method signature="create_an_account()[pri:5, instance:PARA_BANK_Runner.PAPABank_Runner@18a3962d]" started-at="2023-03-29T14:50:39 IST" name="create_an_account" finished-at="2023-03-29T14:50:41 IST" duration-ms="1911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_an_account -->
+        <test-method signature="repeat()[pri:0, instance:PARA_BANK_Runner.PAPABank_Runner@18a3962d]" started-at="2023-03-29T14:50:41 IST" name="repeat" finished-at="2023-03-29T14:50:42 IST" depends-on-methods="PARA_BANK_Runner.PAPABank_Runner.create_an_account" duration-ms="1541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- repeat -->
+        <test-method signature="list_Accounts()[pri:6, instance:PARA_BANK_Runner.PAPABank_Runner@18a3962d]" started-at="2023-03-29T14:50:43 IST" name="list_Accounts" finished-at="2023-03-29T14:50:43 IST" duration-ms="19" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "PARA_Bank.Locaotors.StoreAccounts.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "PARA_Bank.Locaotors.StoreAccounts.driver" is null
+at PARA_Bank.Locaotors.StoreAccounts.Verify_Accounts_are_Different(StoreAccounts.java:32)
+at PARA_BANK_Runner.PAPABank_Runner.list_Accounts(PAPABank_Runner.java:81)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- list_Accounts -->
+        <test-method signature="check_balance()[pri:7, instance:PARA_BANK_Runner.PAPABank_Runner@18a3962d]" started-at="2023-03-29T14:50:43 IST" name="check_balance" finished-at="2023-03-29T14:50:44 IST" duration-ms="1392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_balance -->
+        <test-method signature="print_List_of_balance()[pri:8, instance:PARA_BANK_Runner.PAPABank_Runner@18a3962d]" started-at="2023-03-29T14:50:44 IST" name="print_List_of_balance" finished-at="2023-03-29T14:50:44 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print_List_of_balance -->
+      </class> <!-- PARA_BANK_Runner.PAPABank_Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
