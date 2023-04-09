@@ -27,7 +27,7 @@ public class StoreAccounts {
 	}
 	
 	
-	public static void Verify_Accounts_are_Different()
+	public void Verify_Accounts_are_Different()
 	{
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		

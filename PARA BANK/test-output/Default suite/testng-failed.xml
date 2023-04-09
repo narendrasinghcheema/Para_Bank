@@ -5,7 +5,7 @@
     <classes>
       <class name="PARA_BANK_Runner.PAPABank_Runner">
         <methods>
-          <include name="list_Accounts"/>
+          <include name="get_intial_Amount"/>
         </methods>
       </class> <!-- PARA_BANK_Runner.PAPABank_Runner -->
     </classes>

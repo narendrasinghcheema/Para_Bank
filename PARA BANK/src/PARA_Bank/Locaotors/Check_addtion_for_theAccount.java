@@ -13,6 +13,8 @@ public class Check_addtion_for_theAccount {
 	@FindBy(xpath = "//a[text()='Accounts Overview']")
 	WebElement click_on_Account_overview;
 	
+	
+	
 	WebDriver driver;
 	
 	@FindBy(xpath = "//a[contains(@class, 'ng-binding') and contains(text(),'%s')]")
@@ -59,19 +61,44 @@ public class Check_addtion_for_theAccount {
 				String Balance = check.getText();
 				System.out.println("yes the Account is display = "+text+" and the balance is = "+Balance);
 				Balacelist.add(Balance);
+				
 			}
 			
 		}
 		
 	}
 	
-	public void Balance_in_each_account()
+	
+	public double getsum()
 	{
-		for(int i=0; i<=Balacelist.size(); i++)
+		double sum = 0.0;
+		
+		for(int i=0;i<=Balacelist.size()-1;i++)
 		{
-			System.out.println("Number of balance in each accounts are = "+Balacelist);
+			String valuefromclass = Balacelist.get(i);
+			System.out.println("try krne k liye = "+valuefromclass);
+			String replace = valuefromclass.replace("$", "");
+			double d = Double.parseDouble(replace);
+			
+			System.out.println("replace hone ka bad = "+d);
+			
+			
+			sum += d;
 		}
 		
+		
+		return sum;
+		
+	}
+	
+	public String Value()
+	{
+		String getValue = "";
+		for(int i=0;i<=ar.size();i++)
+		{
+			getValue = ar.get(i);
+		}
+		return getValue;
 	}
 	
 }

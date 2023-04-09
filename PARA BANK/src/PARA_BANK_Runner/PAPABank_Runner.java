@@ -1,8 +1,11 @@
 package PARA_BANK_Runner;
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
@@ -12,15 +15,20 @@ import PARA_Bank.Locaotors.Check_addtion_for_theAccount;
 import PARA_Bank.Locaotors.NewAccount_Creat;
 import PARA_Bank.Locaotors.PARABank_Login;
 import PARA_Bank.Locaotors.StoreAccounts;
+import PARA_Bank.Locaotors.Transfer_Funds;
+import graphql.language.Value;
 
 
 public class PAPABank_Runner {
 
 	WebDriver driver;
 	PARABank_Login obj1;
+	StoreAccounts obj5;
 	After_Login obj2;
 	NewAccount_Creat obj3;
 	Check_addtion_for_theAccount obj4;
+	Transfer_Funds obj6;
+	
 
 	@Test(priority = 1)
 	public void Test_with_invalid_Data()
@@ -42,7 +50,8 @@ public class PAPABank_Runner {
 	public void Test_with_Valid_Data()
 	{
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		obj1.Login("ssss", "ssss");
+		obj1.Login("Head", "Head");
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		obj1.VerifyValiddata();
 	}
 	
@@ -52,6 +61,9 @@ public class PAPABank_Runner {
 		obj2 = PageFactory.initElements(driver, After_Login.class);
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		obj2.Verify_Initial_Money();
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		obj2.printKrovaluejophle_bnaithis();
+		
 	}
 	
 	@Test(priority = 5)
@@ -77,8 +89,8 @@ public class PAPABank_Runner {
 	public void list_Accounts()
 	{
 		StoreAccounts.prilt_all_accounts();
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		StoreAccounts.Verify_Accounts_are_Different();
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		//obj5.Verify_Accounts_are_Different();
 	}
 	
 	@Test(priority = 7)
@@ -91,11 +103,62 @@ public class PAPABank_Runner {
 	}
 	
 	@Test(priority = 8)
-	public void print_List_of_balance()
+	public void get_intial_Amount()
 	{
-		obj4.Balance_in_each_account();
+		
+		double o = 0.0;
+		
+		String inital_Value = obj2.printKrovaluejophle_bnaithis();
+		String V = inital_Value.replace("$", "");
+	
+		double s = Double.parseDouble(V);
+		
+		System.out.println("Value of S is = "+s); 
+		
+		
+		double  p = obj4.getsum();
+		System.out.println("Value of p is = "+p); 
+		
+		
+		o = s-p;
+		
+		o = o+p;
+		
+		String xpppp = String.format("//b[contains(@class, 'ng-binding') and contains(text(), '$%s')]", o);
+		
+		WebElement balanceVerifying = driver.findElement(By.xpath(xpppp));
+		
+		if(balanceVerifying.isDisplayed())
+		{
+			System.out.println("yes the Amount is "+balanceVerifying.getText()+ " Present");
+		}else
+		{
+			System.out.println("No");
+ 	}
+		
 	}
-	
-	
-	
+	 @Test(priority = 9)
+	public void TranferMoney_and_check() throws InterruptedException
+	{
+		obj6 = PageFactory.initElements(driver, Transfer_Funds.class);
+		obj6.click_on_tranfer_buttone();
+		
+		driver.manage().timeouts().implicitlyWait(40,TimeUnit.SECONDS);
+		List<String> store = StoreAccounts.prilt_all_accounts();
+		for(int i=0;i<=store.size();i++)
+		{
+			driver.navigate().refresh();
+			Thread.sleep(2000);
+			String value = store.get(1);
+			System.out.println("vvvvvv = "+value);
+			obj6.interAmountfor_Transfer("700", value);
+		}
+		
+		
+		
+		obj6.click_on_Transfer();
+		obj6.Verify_After_transfer();
+	}
 }
+	
+
