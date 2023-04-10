@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
+<testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-09T10:31:06 IST" name="Default suite" finished-at="2023-04-09T10:31:46 IST" duration-ms="40416">
+  <suite started-at="2023-04-10T17:26:55 IST" name="Default suite" finished-at="2023-04-10T17:27:35 IST" duration-ms="40016">
     <groups>
     </groups>
-    <test started-at="2023-04-09T10:31:06 IST" name="Default test" finished-at="2023-04-09T10:31:46 IST" duration-ms="40416">
+    <test started-at="2023-04-10T17:26:55 IST" name="Default test" finished-at="2023-04-10T17:27:35 IST" duration-ms="40016">
       <class name="PARA_BANK_Runner.PAPABank_Runner">
-        <test-method signature="Test_with_invalid_Data()[pri:1, instance:PARA_BANK_Runner.PAPABank_Runner@4215838f]" started-at="2023-04-09T10:31:06 IST" name="Test_with_invalid_Data" finished-at="2023-04-09T10:31:27 IST" duration-ms="20939" status="PASS">
+        <test-method signature="Test_with_invalid_Data()[pri:1, instance:PARA_BANK_Runner.PAPABank_Runner@452ba1db]" started-at="2023-04-10T17:26:55 IST" name="Test_with_invalid_Data" finished-at="2023-04-10T17:27:15 IST" duration-ms="19349" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_with_invalid_Data -->
-        <test-method signature="Test_with_Blank_Data()[pri:2, instance:PARA_BANK_Runner.PAPABank_Runner@4215838f]" started-at="2023-04-09T10:31:27 IST" name="Test_with_Blank_Data" finished-at="2023-04-09T10:31:28 IST" duration-ms="695" status="PASS">
+        <test-method signature="Test_with_Blank_Data()[pri:2, instance:PARA_BANK_Runner.PAPABank_Runner@452ba1db]" started-at="2023-04-10T17:27:15 IST" name="Test_with_Blank_Data" finished-at="2023-04-10T17:27:15 IST" duration-ms="712" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_with_Blank_Data -->
-        <test-method signature="Test_with_Valid_Data()[pri:3, instance:PARA_BANK_Runner.PAPABank_Runner@4215838f]" started-at="2023-04-09T10:31:28 IST" name="Test_with_Valid_Data" finished-at="2023-04-09T10:31:29 IST" duration-ms="1164" status="PASS">
+        <test-method signature="Test_with_Valid_Data()[pri:3, instance:PARA_BANK_Runner.PAPABank_Runner@452ba1db]" started-at="2023-04-10T17:27:15 IST" name="Test_with_Valid_Data" finished-at="2023-04-10T17:27:16 IST" duration-ms="1227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_with_Valid_Data -->
-        <test-method signature="Verify_First_Amount()[pri:4, instance:PARA_BANK_Runner.PAPABank_Runner@4215838f]" started-at="2023-04-09T10:31:29 IST" name="Verify_First_Amount" finished-at="2023-04-09T10:31:29 IST" duration-ms="259" status="PASS">
+        <test-method signature="Verify_First_Amount()[pri:4, instance:PARA_BANK_Runner.PAPABank_Runner@452ba1db]" started-at="2023-04-10T17:27:16 IST" name="Verify_First_Amount" finished-at="2023-04-10T17:27:17 IST" duration-ms="244" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_First_Amount -->
-        <test-method signature="create_an_account()[pri:5, instance:PARA_BANK_Runner.PAPABank_Runner@4215838f]" started-at="2023-04-09T10:31:29 IST" name="create_an_account" finished-at="2023-04-09T10:31:31 IST" duration-ms="1446" status="PASS">
+        <test-method signature="create_an_account()[pri:5, instance:PARA_BANK_Runner.PAPABank_Runner@452ba1db]" started-at="2023-04-10T17:27:17 IST" name="create_an_account" finished-at="2023-04-10T17:27:18 IST" duration-ms="1511" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- create_an_account -->
-        <test-method signature="repeat()[pri:0, instance:PARA_BANK_Runner.PAPABank_Runner@4215838f]" started-at="2023-04-09T10:31:31 IST" name="repeat" finished-at="2023-04-09T10:31:33 IST" depends-on-methods="PARA_BANK_Runner.PAPABank_Runner.create_an_account" duration-ms="2560" status="PASS">
+        <test-method signature="repeat()[pri:0, instance:PARA_BANK_Runner.PAPABank_Runner@452ba1db]" started-at="2023-04-10T17:27:18 IST" name="repeat" finished-at="2023-04-10T17:27:20 IST" depends-on-methods="PARA_BANK_Runner.PAPABank_Runner.create_an_account" duration-ms="1358" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repeat -->
-        <test-method signature="list_Accounts()[pri:6, instance:PARA_BANK_Runner.PAPABank_Runner@4215838f]" started-at="2023-04-09T10:31:33 IST" name="list_Accounts" finished-at="2023-04-09T10:31:33 IST" duration-ms="16" status="PASS">
+        <test-method signature="list_Accounts()[pri:6, instance:PARA_BANK_Runner.PAPABank_Runner@452ba1db]" started-at="2023-04-10T17:27:20 IST" name="list_Accounts" finished-at="2023-04-10T17:27:20 IST" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- list_Accounts -->
-        <test-method signature="check_balance()[pri:7, instance:PARA_BANK_Runner.PAPABank_Runner@4215838f]" started-at="2023-04-09T10:31:33 IST" name="check_balance" finished-at="2023-04-09T10:31:34 IST" duration-ms="1086" status="PASS">
+        <test-method signature="check_balance()[pri:7, instance:PARA_BANK_Runner.PAPABank_Runner@452ba1db]" started-at="2023-04-10T17:27:20 IST" name="check_balance" finished-at="2023-04-10T17:27:21 IST" duration-ms="1112" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check_balance -->
-        <test-method signature="get_intial_Amount()[pri:8, instance:PARA_BANK_Runner.PAPABank_Runner@4215838f]" started-at="2023-04-09T10:31:34 IST" name="get_intial_Amount" finished-at="2023-04-09T10:31:34 IST" duration-ms="4" status="FAIL">
+        <test-method signature="get_intial_Amount()[pri:8, instance:PARA_BANK_Runner.PAPABank_Runner@452ba1db]" started-at="2023-04-10T17:27:21 IST" name="get_intial_Amount" finished-at="2023-04-10T17:27:21 IST" duration-ms="7" status="FAIL">
           <exception class="java.lang.NumberFormatException">
             <message>
               <![CDATA[empty String]]>
@@ -49,7 +49,7 @@
 at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1842)
 at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
 at java.base/java.lang.Double.parseDouble(Double.java:651)
-at PARA_BANK_Runner.PAPABank_Runner.get_intial_Amount(PAPABank_Runner.java:114)
+at PARA_BANK_Runner.PAPABank_Runner.get_intial_Amount(PAPABank_Runner.java:118)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -84,10 +84,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- get_intial_Amount -->
-        <test-method signature="TranferMoney_and_check()[pri:9, instance:PARA_BANK_Runner.PAPABank_Runner@4215838f]" started-at="2023-04-09T10:31:34 IST" name="TranferMoney_and_check" finished-at="2023-04-09T10:31:46 IST" duration-ms="11902" status="PASS">
+        <test-method signature="TranferMoney_and_check()[pri:9, instance:PARA_BANK_Runner.PAPABank_Runner@452ba1db]" started-at="2023-04-10T17:27:21 IST" name="TranferMoney_and_check" finished-at="2023-04-10T17:27:34 IST" duration-ms="13180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TranferMoney_and_check -->
+        <test-method signature="now_check_Balance_after_Transection()[pri:10, instance:PARA_BANK_Runner.PAPABank_Runner@452ba1db]" started-at="2023-04-10T17:27:34 IST" name="now_check_Balance_after_Transection" finished-at="2023-04-10T17:27:35 IST" duration-ms="1068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- now_check_Balance_after_Transection -->
       </class> <!-- PARA_BANK_Runner.PAPABank_Runner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

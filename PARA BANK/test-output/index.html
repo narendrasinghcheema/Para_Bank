@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\hp\AppData\Local\Temp\testng-eclipse--561111038\testng-customsuite.xml</span>
+                    <span>C:\Users\hp\AppData\Local\Temp\testng-eclipse-1586590523\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">10 methods, 1 failed,   9 passed</span>
+                    <span class="method-stats">11 methods, 1 failed,   10 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -158,6 +158,11 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="PARA_BANK_Runner.PAPABank_Runner" class="method navigator-link" hash-for-method="now_check_Balance_after_Transection">now_check_Balance_after_Transection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="PARA_BANK_Runner.PAPABank_Runner" class="method navigator-link" hash-for-method="repeat">repeat</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -188,7 +193,7 @@
 	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1842)
 	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
 	at java.base/java.lang.Double.parseDouble(Double.java:651)
-	at PARA_BANK_Runner.PAPABank_Runner.get_intial_Amount(PAPABank_Runner.java:114)
+	at PARA_BANK_Runner.PAPABank_Runner.get_intial_Amount(PAPABank_Runner.java:118)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -287,6 +292,13 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="now_check_Balance_after_Transection">
+                  </a> <!-- now_check_Balance_after_Transection -->
+                  <span class="method-name">now_check_Balance_after_Transection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="repeat">
                   </a> <!-- repeat -->
                   <span class="method-name">repeat</span>
@@ -297,7 +309,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\hp\AppData\Local\Temp\testng-eclipse--561111038\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\hp\AppData\Local\Temp\testng-eclipse-1586590523\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -346,52 +358,56 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(10);
+data.addRows(11);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'Test_with_invalid_Data')
 data.setCell(0, 2, 'PARA_BANK_Runner.PAPABank_Runner')
-data.setCell(0, 3, 20939);
+data.setCell(0, 3, 19349);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'TranferMoney_and_check')
 data.setCell(1, 2, 'PARA_BANK_Runner.PAPABank_Runner')
-data.setCell(1, 3, 11902);
+data.setCell(1, 3, 13180);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'repeat')
+data.setCell(2, 1, 'create_an_account')
 data.setCell(2, 2, 'PARA_BANK_Runner.PAPABank_Runner')
-data.setCell(2, 3, 2560);
+data.setCell(2, 3, 1511);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'create_an_account')
+data.setCell(3, 1, 'repeat')
 data.setCell(3, 2, 'PARA_BANK_Runner.PAPABank_Runner')
-data.setCell(3, 3, 1446);
+data.setCell(3, 3, 1358);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'Test_with_Valid_Data')
 data.setCell(4, 2, 'PARA_BANK_Runner.PAPABank_Runner')
-data.setCell(4, 3, 1164);
+data.setCell(4, 3, 1227);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'check_balance')
 data.setCell(5, 2, 'PARA_BANK_Runner.PAPABank_Runner')
-data.setCell(5, 3, 1086);
+data.setCell(5, 3, 1112);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'Test_with_Blank_Data')
+data.setCell(6, 1, 'now_check_Balance_after_Transection')
 data.setCell(6, 2, 'PARA_BANK_Runner.PAPABank_Runner')
-data.setCell(6, 3, 695);
+data.setCell(6, 3, 1068);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'Verify_First_Amount')
+data.setCell(7, 1, 'Test_with_Blank_Data')
 data.setCell(7, 2, 'PARA_BANK_Runner.PAPABank_Runner')
-data.setCell(7, 3, 259);
+data.setCell(7, 3, 712);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'list_Accounts')
+data.setCell(8, 1, 'Verify_First_Amount')
 data.setCell(8, 2, 'PARA_BANK_Runner.PAPABank_Runner')
-data.setCell(8, 3, 16);
+data.setCell(8, 3, 244);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'get_intial_Amount')
+data.setCell(9, 1, 'list_Accounts')
 data.setCell(9, 2, 'PARA_BANK_Runner.PAPABank_Runner')
-data.setCell(9, 3, 4);
+data.setCell(9, 3, 23);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'get_intial_Amount')
+data.setCell(10, 2, 'PARA_BANK_Runner.PAPABank_Runner')
+data.setCell(10, 3, 7);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 40 seconds</span>
+              <span class="suite-total-time">Total running time: 39 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -424,41 +440,45 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Test_with_Blank_Data</span>
-                <span class="method-start">20957 ms</span>
+                <span class="method-start">19370 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Test_with_Valid_Data</span>
-                <span class="method-start">21656 ms</span>
+                <span class="method-start">20087 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Verify_First_Amount</span>
-                <span class="method-start">22830 ms</span>
+                <span class="method-start">21326 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">create_an_account</span>
-                <span class="method-start">23102 ms</span>
+                <span class="method-start">21582 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">repeat</span>
-                <span class="method-start">24564 ms</span>
+                <span class="method-start">23101 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">list_Accounts</span>
-                <span class="method-start">27128 ms</span>
+                <span class="method-start">24470 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">check_balance</span>
-                <span class="method-start">27148 ms</span>
+                <span class="method-start">24506 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">get_intial_Amount</span>
-                <span class="method-start">28238 ms</span>
+                <span class="method-start">25621 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">TranferMoney_and_check</span>
-                <span class="method-start">28252 ms</span>
+                <span class="method-start">25639 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">now_check_Balance_after_Transection</span>
+                <span class="method-start">38824 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

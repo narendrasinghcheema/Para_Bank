@@ -32,7 +32,7 @@ public class Transfer_Funds {
 	@FindBy(xpath = "//*[@id='amount.errors']")
 	WebElement error;
 	
-	String number_amount = "";
+	static String number_amount = "";
 	String accountNumber_Select = "";
 	
 	WebDriver driver;
@@ -69,19 +69,23 @@ public class Transfer_Funds {
 	public void Verify_After_transfer()
 	{
 		String xpp = String.format("//*[contains(@id, 'amount') and contains(text(), '$%s.00')]", number_amount);
-		System.out.println("sirf dkna h ki value ari h ya nhi = "+number_amount+" or = "+accountNumber_Select+" \n xpath ki value "+xpp);
+		System.out.println("sirf dkna h ki value ari h ya nhi = "+number_amount+" or = "+accountNumber_Select+"\n xpath ki value "+xpp);
 		WebElement ele = driver.findElement(By.xpath(xpp));
 		a = new After_Login(driver);
 		if(ele.isDisplayed())
 		{
 			assertTrue(true);
-			String v = a.returnFirst_Account();
+			String v = a.GFirst_Account();
+			
 			
 			System.out.println("vovo = "+v);
 			System.out.println("$"+number_amount+".00 has been transferred from account #"+v+" to account #"+accountNumber_Select);
-			
-			
 		}
+	}
+	
+	public static String AmmoutTobe_Transferd()
+	{
+		return number_amount;
 	}
 	
 	

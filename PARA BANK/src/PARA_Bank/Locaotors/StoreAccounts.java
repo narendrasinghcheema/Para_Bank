@@ -47,4 +47,17 @@ public class StoreAccounts {
 			}
 		}
 	}
+	
+	public static String GetSecondAccount() 
+	{
+		String  SecondAccountnUmber = "";
+		for(int i=0;i<=Accounts.size();i++)
+		{
+			if(i == 1)
+			{
+				SecondAccountnUmber = Accounts.get(i);
+			}
+		}
+		return SecondAccountnUmber;
+	}
 }

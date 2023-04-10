@@ -15,7 +15,7 @@ public class After_Login {
 	WebElement first_account_text;
 	
 	String Ac = "";
-	String Ab = "";
+	static String Ab = "";
 	WebDriver driver;
 	
 	public After_Login(WebDriver IDriver2)
@@ -33,17 +33,18 @@ public class After_Login {
 		String abniklivalue = total_Price.getText();
 		
 	    this.Ac = abniklivalue;
-	    String firstAccount_Text = first_account_text.getText();
-	    System.out.println("phle account ka number = "+firstAccount_Text);
-	    this.Ab = firstAccount_Text;
-	    System.out.println("phle account ka number ab ki = "+Ab);
-	
-	
     }
 	
+	public void SetFirstAccount()
+	{
+		String firstAcc = first_account_text.getText();
+		System.out.println("First Account number is = "+firstAcc);
+		this.Ab = firstAcc;
+	}
 	
 	
-	public String returnFirst_Account()
+	
+	public String GFirst_Account()
 	{
 		return Ab;
 	}

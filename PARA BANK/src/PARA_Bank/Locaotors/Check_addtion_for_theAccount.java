@@ -91,6 +91,7 @@ public class Check_addtion_for_theAccount {
 		
 	}
 	
+	
 	public String Value()
 	{
 		String getValue = "";
@@ -99,6 +100,22 @@ public class Check_addtion_for_theAccount {
 			getValue = ar.get(i);
 		}
 		return getValue;
+	}
+	
+	public static  String Fetch2nd_Account_Balance()
+	{
+		String Account_2nd = "";
+		for(int i=0;i<Balacelist.size();i++)
+		{
+			if(i == 1)
+			{
+				System.out.println("Balance for Second Account = "+Balacelist.get(i));
+				String Account2nd = Balacelist.get(i);
+				Account_2nd = Account2nd;
+			}
+			
+		}
+		return Account_2nd;
 	}
 	
 }

@@ -16,6 +16,7 @@ import PARA_Bank.Locaotors.NewAccount_Creat;
 import PARA_Bank.Locaotors.PARABank_Login;
 import PARA_Bank.Locaotors.StoreAccounts;
 import PARA_Bank.Locaotors.Transfer_Funds;
+import PARA_Bank.LocaotorsVerifyingbanalance_AfterTransfer.Checking_the_Balance;
 import graphql.language.Value;
 
 
@@ -28,6 +29,7 @@ public class PAPABank_Runner {
 	NewAccount_Creat obj3;
 	Check_addtion_for_theAccount obj4;
 	Transfer_Funds obj6;
+	Checking_the_Balance obj7;
 	
 
 	@Test(priority = 1)
@@ -50,7 +52,7 @@ public class PAPABank_Runner {
 	public void Test_with_Valid_Data()
 	{
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		obj1.Login("Head", "Head");
+		obj1.Login("Risalat", "Risalat");
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		obj1.VerifyValiddata();
 	}
@@ -63,6 +65,8 @@ public class PAPABank_Runner {
 		obj2.Verify_Initial_Money();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		obj2.printKrovaluejophle_bnaithis();
+		obj2.SetFirstAccount();
+		obj2.GFirst_Account();
 		
 	}
 	
@@ -159,6 +163,14 @@ public class PAPABank_Runner {
 		obj6.click_on_Transfer();
 		obj6.Verify_After_transfer();
 	}
+	 
+	 @Test(priority = 10)
+	 public void now_check_Balance_after_Transection()
+	 {
+		 obj7 = PageFactory.initElements(driver, Checking_the_Balance.class);
+		 obj7.checkfor_Balace();
+		 obj7.Verifying_the_Account_Balance();
+	 }
 }
 	
 
