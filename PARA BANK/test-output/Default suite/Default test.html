@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>10/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>11/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Apr 10 17:26:55 IST 2023</td>
+<td>Started on:</td><td>Fri Apr 14 18:11:24 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>40 seconds (40016 ms)</td>
+<tr><td>Total time:</td><td>53 seconds (53335 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,12 +75,33 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='PARA_BANK_Runner.PAPABank_Runner.get_intial_Amount()'><b>get_intial_Amount</b><br>Test class: PARA_BANK_Runner.PAPABank_Runner</td>
-<td><div><pre>java.lang.NumberFormatException: empty String
-	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1842)
-	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
-	at java.base/java.lang.Double.parseDouble(Double.java:651)
-	at PARA_BANK_Runner.PAPABank_Runner.get_intial_Amount(PAPABank_Runner.java:118)
+<td title='PARA_BANK_Runner.PAPABank_Runner.VerifyingthefirstAccountafter_Trasection()'><b>VerifyingthefirstAccountafter_Trasection</b><br>Test class: PARA_BANK_Runner.PAPABank_Runner</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[contains(@class, &apos;ng-binding&apos;) and contains(text(),&apos;$1900.00&apos;)]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-P39CJOI&apos;, ip: &apos;10.5.48.83&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [32a47fbf-4500-4835-b6bd-6686104a6a1e, findElement {using=xpath, value=//*[contains(@class, &apos;ng-binding&apos;) and contains(text(),&apos;$1900.00&apos;)]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:56202, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11852, moz:profile: C:\Users\hp\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:56202/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 32a47fbf-4500-4835-b6bd-6686104a6a1e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at PARA_Bank.LocaotorsVerifyingbanalance_AfterTransfer.Verifying_the_firstlatest_balanceafter_Transfer.VerifyingTrasectionsfor_firstAccount(Verifying_the_firstlatest_balanceafter_Transfer.java:52)
+	at PARA_BANK_Runner.PAPABank_Runner.VerifyingthefirstAccountafter_Trasection(PAPABank_Runner.java:185)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -109,12 +130,33 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace752202140", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace752202140'><pre>java.lang.NumberFormatException: empty String
-	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1842)
-	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
-	at java.base/java.lang.Double.parseDouble(Double.java:651)
-	at PARA_BANK_Runner.PAPABank_Runner.get_intial_Amount(PAPABank_Runner.java:118)
+</pre></div><a href='#' onClick='toggleBox("stack-trace220371218", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace220371218'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[contains(@class, &apos;ng-binding&apos;) and contains(text(),&apos;$1900.00&apos;)]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-P39CJOI&apos;, ip: &apos;10.5.48.83&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [32a47fbf-4500-4835-b6bd-6686104a6a1e, findElement {using=xpath, value=//*[contains(@class, &apos;ng-binding&apos;) and contains(text(),&apos;$1900.00&apos;)]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:56202, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11852, moz:profile: C:\Users\hp\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:56202/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 32a47fbf-4500-4835-b6bd-6686104a6a1e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at PARA_Bank.LocaotorsVerifyingbanalance_AfterTransfer.Verifying_the_firstlatest_balanceafter_Transfer.VerifyingTrasectionsfor_firstAccount(Verifying_the_firstlatest_balanceafter_Transfer.java:52)
+	at PARA_BANK_Runner.PAPABank_Runner.VerifyingthefirstAccountafter_Trasection(PAPABank_Runner.java:185)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -144,8 +186,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>0</td>
-<td>PARA_BANK_Runner.PAPABank_Runner@452ba1db</td></tr>
+<td>20</td>
+<td>PARA_BANK_Runner.PAPABank_Runner@2289aca5</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -155,55 +197,60 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='PARA_BANK_Runner.PAPABank_Runner.Test_with_invalid_Data()'><b>Test_with_invalid_Data</b><br>Test class: PARA_BANK_Runner.PAPABank_Runner</td>
-<td></td>
-<td>19</td>
-<td>PARA_BANK_Runner.PAPABank_Runner@452ba1db</td></tr>
-<tr>
 <td title='PARA_BANK_Runner.PAPABank_Runner.Test_with_Blank_Data()'><b>Test_with_Blank_Data</b><br>Test class: PARA_BANK_Runner.PAPABank_Runner</td>
 <td></td>
 <td>0</td>
-<td>PARA_BANK_Runner.PAPABank_Runner@452ba1db</td></tr>
+<td>PARA_BANK_Runner.PAPABank_Runner@2289aca5</td></tr>
 <tr>
 <td title='PARA_BANK_Runner.PAPABank_Runner.Verify_First_Amount()'><b>Verify_First_Amount</b><br>Test class: PARA_BANK_Runner.PAPABank_Runner</td>
 <td></td>
 <td>0</td>
-<td>PARA_BANK_Runner.PAPABank_Runner@452ba1db</td></tr>
-<tr>
-<td title='PARA_BANK_Runner.PAPABank_Runner.Test_with_Valid_Data()'><b>Test_with_Valid_Data</b><br>Test class: PARA_BANK_Runner.PAPABank_Runner</td>
-<td></td>
-<td>1</td>
-<td>PARA_BANK_Runner.PAPABank_Runner@452ba1db</td></tr>
-<tr>
-<td title='PARA_BANK_Runner.PAPABank_Runner.TranferMoney_and_check()'><b>TranferMoney_and_check</b><br>Test class: PARA_BANK_Runner.PAPABank_Runner</td>
-<td></td>
-<td>13</td>
-<td>PARA_BANK_Runner.PAPABank_Runner@452ba1db</td></tr>
+<td>PARA_BANK_Runner.PAPABank_Runner@2289aca5</td></tr>
 <tr>
 <td title='PARA_BANK_Runner.PAPABank_Runner.now_check_Balance_after_Transection()'><b>now_check_Balance_after_Transection</b><br>Test class: PARA_BANK_Runner.PAPABank_Runner</td>
 <td></td>
 <td>1</td>
-<td>PARA_BANK_Runner.PAPABank_Runner@452ba1db</td></tr>
+<td>PARA_BANK_Runner.PAPABank_Runner@2289aca5</td></tr>
 <tr>
-<td title='PARA_BANK_Runner.PAPABank_Runner.list_Accounts()'><b>list_Accounts</b><br>Test class: PARA_BANK_Runner.PAPABank_Runner</td>
+<td title='PARA_BANK_Runner.PAPABank_Runner.TranferMoney_and_check()'><b>TranferMoney_and_check</b><br>Test class: PARA_BANK_Runner.PAPABank_Runner</td>
+<td></td>
+<td>4</td>
+<td>PARA_BANK_Runner.PAPABank_Runner@2289aca5</td></tr>
+<tr>
+<td title='PARA_BANK_Runner.PAPABank_Runner.Test_with_Valid_Data()'><b>Test_with_Valid_Data</b><br>Test class: PARA_BANK_Runner.PAPABank_Runner</td>
+<td></td>
+<td>1</td>
+<td>PARA_BANK_Runner.PAPABank_Runner@2289aca5</td></tr>
+<tr>
+<td title='PARA_BANK_Runner.PAPABank_Runner.get_intial_Amount()'><b>get_intial_Amount</b><br>Test class: PARA_BANK_Runner.PAPABank_Runner</td>
 <td></td>
 <td>0</td>
-<td>PARA_BANK_Runner.PAPABank_Runner@452ba1db</td></tr>
+<td>PARA_BANK_Runner.PAPABank_Runner@2289aca5</td></tr>
+<tr>
+<td title='PARA_BANK_Runner.PAPABank_Runner.Test_with_invalid_Data()'><b>Test_with_invalid_Data</b><br>Test class: PARA_BANK_Runner.PAPABank_Runner</td>
+<td></td>
+<td>16</td>
+<td>PARA_BANK_Runner.PAPABank_Runner@2289aca5</td></tr>
+<tr>
+<td title='PARA_BANK_Runner.PAPABank_Runner.create_an_account()'><b>create_an_account</b><br>Test class: PARA_BANK_Runner.PAPABank_Runner</td>
+<td></td>
+<td>5</td>
+<td>PARA_BANK_Runner.PAPABank_Runner@2289aca5</td></tr>
 <tr>
 <td title='PARA_BANK_Runner.PAPABank_Runner.repeat()'><b>repeat</b><br>Test class: PARA_BANK_Runner.PAPABank_Runner</td>
 <td></td>
 <td>1</td>
-<td>PARA_BANK_Runner.PAPABank_Runner@452ba1db</td></tr>
+<td>PARA_BANK_Runner.PAPABank_Runner@2289aca5</td></tr>
+<tr>
+<td title='PARA_BANK_Runner.PAPABank_Runner.list_Accounts()'><b>list_Accounts</b><br>Test class: PARA_BANK_Runner.PAPABank_Runner</td>
+<td></td>
+<td>0</td>
+<td>PARA_BANK_Runner.PAPABank_Runner@2289aca5</td></tr>
 <tr>
 <td title='PARA_BANK_Runner.PAPABank_Runner.check_balance()'><b>check_balance</b><br>Test class: PARA_BANK_Runner.PAPABank_Runner</td>
 <td></td>
 <td>1</td>
-<td>PARA_BANK_Runner.PAPABank_Runner@452ba1db</td></tr>
-<tr>
-<td title='PARA_BANK_Runner.PAPABank_Runner.create_an_account()'><b>create_an_account</b><br>Test class: PARA_BANK_Runner.PAPABank_Runner</td>
-<td></td>
-<td>1</td>
-<td>PARA_BANK_Runner.PAPABank_Runner@452ba1db</td></tr>
+<td>PARA_BANK_Runner.PAPABank_Runner@2289aca5</td></tr>
 </table><p>
 </body>
 </html>

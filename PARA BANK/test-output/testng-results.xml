@@ -1,55 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
+<testng-results ignored="0" total="12" passed="11" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-10T17:26:55 IST" name="Default suite" finished-at="2023-04-10T17:27:35 IST" duration-ms="40016">
+  <suite started-at="2023-04-14T18:11:24 IST" name="Default suite" finished-at="2023-04-14T18:12:18 IST" duration-ms="53335">
     <groups>
     </groups>
-    <test started-at="2023-04-10T17:26:55 IST" name="Default test" finished-at="2023-04-10T17:27:35 IST" duration-ms="40016">
+    <test started-at="2023-04-14T18:11:24 IST" name="Default test" finished-at="2023-04-14T18:12:18 IST" duration-ms="53335">
       <class name="PARA_BANK_Runner.PAPABank_Runner">
-        <test-method signature="Test_with_invalid_Data()[pri:1, instance:PARA_BANK_Runner.PAPABank_Runner@452ba1db]" started-at="2023-04-10T17:26:55 IST" name="Test_with_invalid_Data" finished-at="2023-04-10T17:27:15 IST" duration-ms="19349" status="PASS">
+        <test-method signature="Test_with_invalid_Data()[pri:1, instance:PARA_BANK_Runner.PAPABank_Runner@2289aca5]" started-at="2023-04-14T18:11:24 IST" name="Test_with_invalid_Data" finished-at="2023-04-14T18:11:41 IST" duration-ms="16682" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_with_invalid_Data -->
-        <test-method signature="Test_with_Blank_Data()[pri:2, instance:PARA_BANK_Runner.PAPABank_Runner@452ba1db]" started-at="2023-04-10T17:27:15 IST" name="Test_with_Blank_Data" finished-at="2023-04-10T17:27:15 IST" duration-ms="712" status="PASS">
+        <test-method signature="Test_with_Blank_Data()[pri:2, instance:PARA_BANK_Runner.PAPABank_Runner@2289aca5]" started-at="2023-04-14T18:11:41 IST" name="Test_with_Blank_Data" finished-at="2023-04-14T18:11:42 IST" duration-ms="654" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_with_Blank_Data -->
-        <test-method signature="Test_with_Valid_Data()[pri:3, instance:PARA_BANK_Runner.PAPABank_Runner@452ba1db]" started-at="2023-04-10T17:27:15 IST" name="Test_with_Valid_Data" finished-at="2023-04-10T17:27:16 IST" duration-ms="1227" status="PASS">
+        <test-method signature="Test_with_Valid_Data()[pri:3, instance:PARA_BANK_Runner.PAPABank_Runner@2289aca5]" started-at="2023-04-14T18:11:42 IST" name="Test_with_Valid_Data" finished-at="2023-04-14T18:11:43 IST" duration-ms="1575" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_with_Valid_Data -->
-        <test-method signature="Verify_First_Amount()[pri:4, instance:PARA_BANK_Runner.PAPABank_Runner@452ba1db]" started-at="2023-04-10T17:27:16 IST" name="Verify_First_Amount" finished-at="2023-04-10T17:27:17 IST" duration-ms="244" status="PASS">
+        <test-method signature="Verify_First_Amount()[pri:4, instance:PARA_BANK_Runner.PAPABank_Runner@2289aca5]" started-at="2023-04-14T18:11:43 IST" name="Verify_First_Amount" finished-at="2023-04-14T18:11:44 IST" duration-ms="281" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_First_Amount -->
-        <test-method signature="create_an_account()[pri:5, instance:PARA_BANK_Runner.PAPABank_Runner@452ba1db]" started-at="2023-04-10T17:27:17 IST" name="create_an_account" finished-at="2023-04-10T17:27:18 IST" duration-ms="1511" status="PASS">
+        <test-method signature="create_an_account()[pri:5, instance:PARA_BANK_Runner.PAPABank_Runner@2289aca5]" started-at="2023-04-14T18:11:44 IST" name="create_an_account" finished-at="2023-04-14T18:11:49 IST" duration-ms="5092" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- create_an_account -->
-        <test-method signature="repeat()[pri:0, instance:PARA_BANK_Runner.PAPABank_Runner@452ba1db]" started-at="2023-04-10T17:27:18 IST" name="repeat" finished-at="2023-04-10T17:27:20 IST" depends-on-methods="PARA_BANK_Runner.PAPABank_Runner.create_an_account" duration-ms="1358" status="PASS">
+        <test-method signature="repeat()[pri:0, instance:PARA_BANK_Runner.PAPABank_Runner@2289aca5]" started-at="2023-04-14T18:11:49 IST" name="repeat" finished-at="2023-04-14T18:11:50 IST" depends-on-methods="PARA_BANK_Runner.PAPABank_Runner.create_an_account" duration-ms="1192" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repeat -->
-        <test-method signature="list_Accounts()[pri:6, instance:PARA_BANK_Runner.PAPABank_Runner@452ba1db]" started-at="2023-04-10T17:27:20 IST" name="list_Accounts" finished-at="2023-04-10T17:27:20 IST" duration-ms="23" status="PASS">
+        <test-method signature="list_Accounts()[pri:6, instance:PARA_BANK_Runner.PAPABank_Runner@2289aca5]" started-at="2023-04-14T18:11:50 IST" name="list_Accounts" finished-at="2023-04-14T18:11:50 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- list_Accounts -->
-        <test-method signature="check_balance()[pri:7, instance:PARA_BANK_Runner.PAPABank_Runner@452ba1db]" started-at="2023-04-10T17:27:20 IST" name="check_balance" finished-at="2023-04-10T17:27:21 IST" duration-ms="1112" status="PASS">
+        <test-method signature="check_balance()[pri:7, instance:PARA_BANK_Runner.PAPABank_Runner@2289aca5]" started-at="2023-04-14T18:11:50 IST" name="check_balance" finished-at="2023-04-14T18:11:51 IST" duration-ms="1006" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check_balance -->
-        <test-method signature="get_intial_Amount()[pri:8, instance:PARA_BANK_Runner.PAPABank_Runner@452ba1db]" started-at="2023-04-10T17:27:21 IST" name="get_intial_Amount" finished-at="2023-04-10T17:27:21 IST" duration-ms="7" status="FAIL">
-          <exception class="java.lang.NumberFormatException">
+        <test-method signature="get_intial_Amount()[pri:8, instance:PARA_BANK_Runner.PAPABank_Runner@2289aca5]" started-at="2023-04-14T18:11:51 IST" name="get_intial_Amount" finished-at="2023-04-14T18:11:51 IST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_intial_Amount -->
+        <test-method signature="TranferMoney_and_check()[pri:9, instance:PARA_BANK_Runner.PAPABank_Runner@2289aca5]" started-at="2023-04-14T18:11:51 IST" name="TranferMoney_and_check" finished-at="2023-04-14T18:11:56 IST" duration-ms="4722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TranferMoney_and_check -->
+        <test-method signature="now_check_Balance_after_Transection()[pri:10, instance:PARA_BANK_Runner.PAPABank_Runner@2289aca5]" started-at="2023-04-14T18:11:56 IST" name="now_check_Balance_after_Transection" finished-at="2023-04-14T18:11:58 IST" duration-ms="1809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- now_check_Balance_after_Transection -->
+        <test-method signature="VerifyingthefirstAccountafter_Trasection()[pri:11, instance:PARA_BANK_Runner.PAPABank_Runner@2289aca5]" started-at="2023-04-14T18:11:58 IST" name="VerifyingthefirstAccountafter_Trasection" finished-at="2023-04-14T18:12:18 IST" duration-ms="20081" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[empty String]]>
+              <![CDATA[Unable to locate element: //*[contains(@class, 'ng-binding') and contains(text(),'$1900.00')]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-P39CJOI', ip: '10.5.48.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [32a47fbf-4500-4835-b6bd-6686104a6a1e, findElement {using=xpath, value=//*[contains(@class, 'ng-binding') and contains(text(),'$1900.00')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:56202, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11852, moz:profile: C:\Users\hp\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:56202/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 32a47fbf-4500-4835-b6bd-6686104a6a1e]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NumberFormatException: empty String
-at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1842)
-at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
-at java.base/java.lang.Double.parseDouble(Double.java:651)
-at PARA_BANK_Runner.PAPABank_Runner.get_intial_Amount(PAPABank_Runner.java:118)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[contains(@class, 'ng-binding') and contains(text(),'$1900.00')]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-P39CJOI', ip: '10.5.48.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [32a47fbf-4500-4835-b6bd-6686104a6a1e, findElement {using=xpath, value=//*[contains(@class, 'ng-binding') and contains(text(),'$1900.00')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:56202, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11852, moz:profile: C:\Users\hp\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:56202/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 32a47fbf-4500-4835-b6bd-6686104a6a1e
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+at PARA_Bank.LocaotorsVerifyingbanalance_AfterTransfer.Verifying_the_firstlatest_balanceafter_Transfer.VerifyingTrasectionsfor_firstAccount(Verifying_the_firstlatest_balanceafter_Transfer.java:52)
+at PARA_BANK_Runner.PAPABank_Runner.VerifyingthefirstAccountafter_Trasection(PAPABank_Runner.java:185)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -80,18 +120,10 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NumberFormatException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- get_intial_Amount -->
-        <test-method signature="TranferMoney_and_check()[pri:9, instance:PARA_BANK_Runner.PAPABank_Runner@452ba1db]" started-at="2023-04-10T17:27:21 IST" name="TranferMoney_and_check" finished-at="2023-04-10T17:27:34 IST" duration-ms="13180" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TranferMoney_and_check -->
-        <test-method signature="now_check_Balance_after_Transection()[pri:10, instance:PARA_BANK_Runner.PAPABank_Runner@452ba1db]" started-at="2023-04-10T17:27:34 IST" name="now_check_Balance_after_Transection" finished-at="2023-04-10T17:27:35 IST" duration-ms="1068" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- now_check_Balance_after_Transection -->
+        </test-method> <!-- VerifyingthefirstAccountafter_Trasection -->
       </class> <!-- PARA_BANK_Runner.PAPABank_Runner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

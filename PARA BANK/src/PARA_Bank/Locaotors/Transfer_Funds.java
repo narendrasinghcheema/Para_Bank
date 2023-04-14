@@ -72,7 +72,7 @@ public class Transfer_Funds {
 		System.out.println("sirf dkna h ki value ari h ya nhi = "+number_amount+" or = "+accountNumber_Select+"\n xpath ki value "+xpp);
 		WebElement ele = driver.findElement(By.xpath(xpp));
 		a = new After_Login(driver);
-		if(ele.isDisplayed())
+		if(ele.isDisplayed()) 
 		{
 			assertTrue(true);
 			String v = a.GFirst_Account();

@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\hp\AppData\Local\Temp\testng-eclipse-1586590523\testng-customsuite.xml</span>
+                    <span>C:\Users\hp\AppData\Local\Temp\testng-eclipse-702630761\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">11 methods, 1 failed,   10 passed</span>
+                    <span class="method-stats">12 methods, 1 failed,   11 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -104,7 +104,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="PARA_BANK_Runner.PAPABank_Runner" class="method navigator-link" hash-for-method="get_intial_Amount">get_intial_Amount</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="PARA_BANK_Runner.PAPABank_Runner" class="method navigator-link" hash-for-method="VerifyingthefirstAccountafter_Trasection">VerifyingthefirstAccountafter_Trasection</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -153,6 +153,11 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="PARA_BANK_Runner.PAPABank_Runner" class="method navigator-link" hash-for-method="get_intial_Amount">get_intial_Amount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="PARA_BANK_Runner.PAPABank_Runner" class="method navigator-link" hash-for-method="list_Accounts">list_Accounts</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -186,14 +191,35 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="get_intial_Amount">
-                  </a> <!-- get_intial_Amount -->
-                  <span class="method-name">get_intial_Amount</span>
-                  <div class="stack-trace">java.lang.NumberFormatException: empty String
-	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1842)
-	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
-	at java.base/java.lang.Double.parseDouble(Double.java:651)
-	at PARA_BANK_Runner.PAPABank_Runner.get_intial_Amount(PAPABank_Runner.java:118)
+                  <a name="VerifyingthefirstAccountafter_Trasection">
+                  </a> <!-- VerifyingthefirstAccountafter_Trasection -->
+                  <span class="method-name">VerifyingthefirstAccountafter_Trasection</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[contains(@class, &apos;ng-binding&apos;) and contains(text(),&apos;$1900.00&apos;)]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-P39CJOI&apos;, ip: &apos;10.5.48.83&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [32a47fbf-4500-4835-b6bd-6686104a6a1e, findElement {using=xpath, value=//*[contains(@class, &apos;ng-binding&apos;) and contains(text(),&apos;$1900.00&apos;)]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:56202, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11852, moz:profile: C:\Users\hp\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:56202/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 32a47fbf-4500-4835-b6bd-6686104a6a1e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at PARA_Bank.LocaotorsVerifyingbanalance_AfterTransfer.Verifying_the_firstlatest_balanceafter_Transfer.VerifyingTrasectionsfor_firstAccount(Verifying_the_firstlatest_balanceafter_Transfer.java:52)
+	at PARA_BANK_Runner.PAPABank_Runner.VerifyingthefirstAccountafter_Trasection(PAPABank_Runner.java:185)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -285,6 +311,13 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="get_intial_Amount">
+                  </a> <!-- get_intial_Amount -->
+                  <span class="method-name">get_intial_Amount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="list_Accounts">
                   </a> <!-- list_Accounts -->
                   <span class="method-name">list_Accounts</span>
@@ -309,7 +342,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\hp\AppData\Local\Temp\testng-eclipse-1586590523\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\hp\AppData\Local\Temp\testng-eclipse-702630761\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -358,56 +391,60 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(11);
+data.addRows(12);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Test_with_invalid_Data')
+data.setCell(0, 1, 'VerifyingthefirstAccountafter_Trasection')
 data.setCell(0, 2, 'PARA_BANK_Runner.PAPABank_Runner')
-data.setCell(0, 3, 19349);
+data.setCell(0, 3, 20081);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'TranferMoney_and_check')
+data.setCell(1, 1, 'Test_with_invalid_Data')
 data.setCell(1, 2, 'PARA_BANK_Runner.PAPABank_Runner')
-data.setCell(1, 3, 13180);
+data.setCell(1, 3, 16682);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'create_an_account')
 data.setCell(2, 2, 'PARA_BANK_Runner.PAPABank_Runner')
-data.setCell(2, 3, 1511);
+data.setCell(2, 3, 5092);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'repeat')
+data.setCell(3, 1, 'TranferMoney_and_check')
 data.setCell(3, 2, 'PARA_BANK_Runner.PAPABank_Runner')
-data.setCell(3, 3, 1358);
+data.setCell(3, 3, 4722);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'Test_with_Valid_Data')
+data.setCell(4, 1, 'now_check_Balance_after_Transection')
 data.setCell(4, 2, 'PARA_BANK_Runner.PAPABank_Runner')
-data.setCell(4, 3, 1227);
+data.setCell(4, 3, 1809);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'check_balance')
+data.setCell(5, 1, 'Test_with_Valid_Data')
 data.setCell(5, 2, 'PARA_BANK_Runner.PAPABank_Runner')
-data.setCell(5, 3, 1112);
+data.setCell(5, 3, 1575);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'now_check_Balance_after_Transection')
+data.setCell(6, 1, 'repeat')
 data.setCell(6, 2, 'PARA_BANK_Runner.PAPABank_Runner')
-data.setCell(6, 3, 1068);
+data.setCell(6, 3, 1192);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'Test_with_Blank_Data')
+data.setCell(7, 1, 'check_balance')
 data.setCell(7, 2, 'PARA_BANK_Runner.PAPABank_Runner')
-data.setCell(7, 3, 712);
+data.setCell(7, 3, 1006);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'Verify_First_Amount')
+data.setCell(8, 1, 'Test_with_Blank_Data')
 data.setCell(8, 2, 'PARA_BANK_Runner.PAPABank_Runner')
-data.setCell(8, 3, 244);
+data.setCell(8, 3, 654);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'list_Accounts')
+data.setCell(9, 1, 'Verify_First_Amount')
 data.setCell(9, 2, 'PARA_BANK_Runner.PAPABank_Runner')
-data.setCell(9, 3, 23);
+data.setCell(9, 3, 281);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'get_intial_Amount')
 data.setCell(10, 2, 'PARA_BANK_Runner.PAPABank_Runner')
-data.setCell(10, 3, 7);
+data.setCell(10, 3, 48);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'list_Accounts')
+data.setCell(11, 2, 'PARA_BANK_Runner.PAPABank_Runner')
+data.setCell(11, 3, 8);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 39 seconds</span>
+              <span class="suite-total-time">Total running time: 53 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -440,45 +477,49 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Test_with_Blank_Data</span>
-                <span class="method-start">19370 ms</span>
+                <span class="method-start">16710 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Test_with_Valid_Data</span>
-                <span class="method-start">20087 ms</span>
+                <span class="method-start">17374 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Verify_First_Amount</span>
-                <span class="method-start">21326 ms</span>
+                <span class="method-start">18958 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">create_an_account</span>
-                <span class="method-start">21582 ms</span>
+                <span class="method-start">19243 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">repeat</span>
-                <span class="method-start">23101 ms</span>
+                <span class="method-start">24343 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">list_Accounts</span>
-                <span class="method-start">24470 ms</span>
+                <span class="method-start">25543 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">check_balance</span>
-                <span class="method-start">24506 ms</span>
+                <span class="method-start">25554 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_intial_Amount</span>
+                <span class="method-start">26563 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TranferMoney_and_check</span>
+                <span class="method-start">26613 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">now_check_Balance_after_Transection</span>
+                <span class="method-start">31337 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">get_intial_Amount</span>
-                <span class="method-start">25621 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">TranferMoney_and_check</span>
-                <span class="method-start">25639 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">now_check_Balance_after_Transection</span>
-                <span class="method-start">38824 ms</span>
+                <span class="method-name">VerifyingthefirstAccountafter_Trasection</span>
+                <span class="method-start">33148 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

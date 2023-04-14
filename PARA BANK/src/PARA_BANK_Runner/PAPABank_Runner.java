@@ -17,6 +17,7 @@ import PARA_Bank.Locaotors.PARABank_Login;
 import PARA_Bank.Locaotors.StoreAccounts;
 import PARA_Bank.Locaotors.Transfer_Funds;
 import PARA_Bank.LocaotorsVerifyingbanalance_AfterTransfer.Checking_the_Balance;
+import PARA_Bank.LocaotorsVerifyingbanalance_AfterTransfer.Verifying_the_firstlatest_balanceafter_Transfer;
 import graphql.language.Value;
 
 
@@ -30,6 +31,7 @@ public class PAPABank_Runner {
 	Check_addtion_for_theAccount obj4;
 	Transfer_Funds obj6;
 	Checking_the_Balance obj7;
+	Verifying_the_firstlatest_balanceafter_Transfer obj8;
 	
 
 	@Test(priority = 1)
@@ -52,7 +54,7 @@ public class PAPABank_Runner {
 	public void Test_with_Valid_Data()
 	{
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		obj1.Login("Risalat", "Risalat");
+		obj1.Login("Rahul", "Rahul");
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		obj1.VerifyValiddata();
 	}
@@ -151,11 +153,15 @@ public class PAPABank_Runner {
 		List<String> store = StoreAccounts.prilt_all_accounts();
 		for(int i=0;i<=store.size();i++)
 		{
-			driver.navigate().refresh();
-			Thread.sleep(2000);
-			String value = store.get(1);
-			System.out.println("vvvvvv = "+value);
-			obj6.interAmountfor_Transfer("700", value);
+			if(i == 1)
+			{
+				driver.navigate().refresh();
+				Thread.sleep(2000);
+				String value = store.get(i);
+				System.out.println("vvvvvv = "+value);
+				obj6.interAmountfor_Transfer("700", value);
+			}
+			
 		}
 		
 		
@@ -170,6 +176,14 @@ public class PAPABank_Runner {
 		 obj7 = PageFactory.initElements(driver, Checking_the_Balance.class);
 		 obj7.checkfor_Balace();
 		 obj7.Verifying_the_Account_Balance();
+	 }
+	 
+	 @Test(priority = 11)
+	 public void VerifyingthefirstAccountafter_Trasection()
+	 {
+		 obj8 = PageFactory.initElements(driver, Verifying_the_firstlatest_balanceafter_Transfer.class);
+		 obj8.VerifyingTrasectionsfor_firstAccount();
+		 
 	 }
 }
 	

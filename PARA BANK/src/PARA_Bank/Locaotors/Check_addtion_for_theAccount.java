@@ -69,7 +69,7 @@ public class Check_addtion_for_theAccount {
 	}
 	
 	
-	public double getsum()
+	public static double getsum()
 	{
 		double sum = 0.0;
 		
