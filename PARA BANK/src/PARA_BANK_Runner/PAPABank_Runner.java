@@ -54,11 +54,11 @@ public class PAPABank_Runner {
 	public void Test_with_Valid_Data()
 	{
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		obj1.Login("Rahul", "Rahul");
+		obj1.Login("SanjeevSir", "SanjeevSir");
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		obj1.VerifyValiddata();
 	}
-	
+
 	@Test(priority = 4)
 	public void Verify_First_Amount()
 	{

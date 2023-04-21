@@ -2,76 +2,76 @@
 <testng-results ignored="0" total="12" passed="11" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-14T18:11:24 IST" name="Default suite" finished-at="2023-04-14T18:12:18 IST" duration-ms="53335">
+  <suite started-at="2023-04-19T11:28:19 IST" name="Default suite" finished-at="2023-04-19T11:29:21 IST" duration-ms="61074">
     <groups>
     </groups>
-    <test started-at="2023-04-14T18:11:24 IST" name="Default test" finished-at="2023-04-14T18:12:18 IST" duration-ms="53335">
+    <test started-at="2023-04-19T11:28:19 IST" name="Default test" finished-at="2023-04-19T11:29:21 IST" duration-ms="61074">
       <class name="PARA_BANK_Runner.PAPABank_Runner">
-        <test-method signature="Test_with_invalid_Data()[pri:1, instance:PARA_BANK_Runner.PAPABank_Runner@2289aca5]" started-at="2023-04-14T18:11:24 IST" name="Test_with_invalid_Data" finished-at="2023-04-14T18:11:41 IST" duration-ms="16682" status="PASS">
+        <test-method signature="Test_with_invalid_Data()[pri:1, instance:PARA_BANK_Runner.PAPABank_Runner@2289aca5]" started-at="2023-04-19T11:28:20 IST" name="Test_with_invalid_Data" finished-at="2023-04-19T11:28:49 IST" duration-ms="29400" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_with_invalid_Data -->
-        <test-method signature="Test_with_Blank_Data()[pri:2, instance:PARA_BANK_Runner.PAPABank_Runner@2289aca5]" started-at="2023-04-14T18:11:41 IST" name="Test_with_Blank_Data" finished-at="2023-04-14T18:11:42 IST" duration-ms="654" status="PASS">
+        <test-method signature="Test_with_Blank_Data()[pri:2, instance:PARA_BANK_Runner.PAPABank_Runner@2289aca5]" started-at="2023-04-19T11:28:49 IST" name="Test_with_Blank_Data" finished-at="2023-04-19T11:28:50 IST" duration-ms="590" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_with_Blank_Data -->
-        <test-method signature="Test_with_Valid_Data()[pri:3, instance:PARA_BANK_Runner.PAPABank_Runner@2289aca5]" started-at="2023-04-14T18:11:42 IST" name="Test_with_Valid_Data" finished-at="2023-04-14T18:11:43 IST" duration-ms="1575" status="PASS">
+        <test-method signature="Test_with_Valid_Data()[pri:3, instance:PARA_BANK_Runner.PAPABank_Runner@2289aca5]" started-at="2023-04-19T11:28:50 IST" name="Test_with_Valid_Data" finished-at="2023-04-19T11:28:51 IST" duration-ms="1867" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_with_Valid_Data -->
-        <test-method signature="Verify_First_Amount()[pri:4, instance:PARA_BANK_Runner.PAPABank_Runner@2289aca5]" started-at="2023-04-14T18:11:43 IST" name="Verify_First_Amount" finished-at="2023-04-14T18:11:44 IST" duration-ms="281" status="PASS">
+        <test-method signature="Verify_First_Amount()[pri:4, instance:PARA_BANK_Runner.PAPABank_Runner@2289aca5]" started-at="2023-04-19T11:28:51 IST" name="Verify_First_Amount" finished-at="2023-04-19T11:28:52 IST" duration-ms="282" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_First_Amount -->
-        <test-method signature="create_an_account()[pri:5, instance:PARA_BANK_Runner.PAPABank_Runner@2289aca5]" started-at="2023-04-14T18:11:44 IST" name="create_an_account" finished-at="2023-04-14T18:11:49 IST" duration-ms="5092" status="PASS">
+        <test-method signature="create_an_account()[pri:5, instance:PARA_BANK_Runner.PAPABank_Runner@2289aca5]" started-at="2023-04-19T11:28:52 IST" name="create_an_account" finished-at="2023-04-19T11:28:53 IST" duration-ms="1392" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- create_an_account -->
-        <test-method signature="repeat()[pri:0, instance:PARA_BANK_Runner.PAPABank_Runner@2289aca5]" started-at="2023-04-14T18:11:49 IST" name="repeat" finished-at="2023-04-14T18:11:50 IST" depends-on-methods="PARA_BANK_Runner.PAPABank_Runner.create_an_account" duration-ms="1192" status="PASS">
+        <test-method signature="repeat()[pri:0, instance:PARA_BANK_Runner.PAPABank_Runner@2289aca5]" started-at="2023-04-19T11:28:53 IST" name="repeat" finished-at="2023-04-19T11:28:54 IST" depends-on-methods="PARA_BANK_Runner.PAPABank_Runner.create_an_account" duration-ms="1181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repeat -->
-        <test-method signature="list_Accounts()[pri:6, instance:PARA_BANK_Runner.PAPABank_Runner@2289aca5]" started-at="2023-04-14T18:11:50 IST" name="list_Accounts" finished-at="2023-04-14T18:11:50 IST" duration-ms="8" status="PASS">
+        <test-method signature="list_Accounts()[pri:6, instance:PARA_BANK_Runner.PAPABank_Runner@2289aca5]" started-at="2023-04-19T11:28:54 IST" name="list_Accounts" finished-at="2023-04-19T11:28:54 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- list_Accounts -->
-        <test-method signature="check_balance()[pri:7, instance:PARA_BANK_Runner.PAPABank_Runner@2289aca5]" started-at="2023-04-14T18:11:50 IST" name="check_balance" finished-at="2023-04-14T18:11:51 IST" duration-ms="1006" status="PASS">
+        <test-method signature="check_balance()[pri:7, instance:PARA_BANK_Runner.PAPABank_Runner@2289aca5]" started-at="2023-04-19T11:28:54 IST" name="check_balance" finished-at="2023-04-19T11:28:55 IST" duration-ms="956" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check_balance -->
-        <test-method signature="get_intial_Amount()[pri:8, instance:PARA_BANK_Runner.PAPABank_Runner@2289aca5]" started-at="2023-04-14T18:11:51 IST" name="get_intial_Amount" finished-at="2023-04-14T18:11:51 IST" duration-ms="48" status="PASS">
+        <test-method signature="get_intial_Amount()[pri:8, instance:PARA_BANK_Runner.PAPABank_Runner@2289aca5]" started-at="2023-04-19T11:28:55 IST" name="get_intial_Amount" finished-at="2023-04-19T11:28:55 IST" duration-ms="53" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- get_intial_Amount -->
-        <test-method signature="TranferMoney_and_check()[pri:9, instance:PARA_BANK_Runner.PAPABank_Runner@2289aca5]" started-at="2023-04-14T18:11:51 IST" name="TranferMoney_and_check" finished-at="2023-04-14T18:11:56 IST" duration-ms="4722" status="PASS">
+        <test-method signature="TranferMoney_and_check()[pri:9, instance:PARA_BANK_Runner.PAPABank_Runner@2289aca5]" started-at="2023-04-19T11:28:55 IST" name="TranferMoney_and_check" finished-at="2023-04-19T11:28:59 IST" duration-ms="4134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TranferMoney_and_check -->
-        <test-method signature="now_check_Balance_after_Transection()[pri:10, instance:PARA_BANK_Runner.PAPABank_Runner@2289aca5]" started-at="2023-04-14T18:11:56 IST" name="now_check_Balance_after_Transection" finished-at="2023-04-14T18:11:58 IST" duration-ms="1809" status="PASS">
+        <test-method signature="now_check_Balance_after_Transection()[pri:10, instance:PARA_BANK_Runner.PAPABank_Runner@2289aca5]" started-at="2023-04-19T11:28:59 IST" name="now_check_Balance_after_Transection" finished-at="2023-04-19T11:29:00 IST" duration-ms="950" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- now_check_Balance_after_Transection -->
-        <test-method signature="VerifyingthefirstAccountafter_Trasection()[pri:11, instance:PARA_BANK_Runner.PAPABank_Runner@2289aca5]" started-at="2023-04-14T18:11:58 IST" name="VerifyingthefirstAccountafter_Trasection" finished-at="2023-04-14T18:12:18 IST" duration-ms="20081" status="FAIL">
+        <test-method signature="VerifyingthefirstAccountafter_Trasection()[pri:11, instance:PARA_BANK_Runner.PAPABank_Runner@2289aca5]" started-at="2023-04-19T11:29:00 IST" name="VerifyingthefirstAccountafter_Trasection" finished-at="2023-04-19T11:29:20 IST" duration-ms="20051" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Unable to locate element: //*[contains(@class, 'ng-binding') and contains(text(),'$1900.00')]
+              <![CDATA[Unable to locate element: //*[contains(@class, 'ng-binding') and contains(text(),'$-184.50')]
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.2', revision: '9a5a329c5a'
-System info: host: 'DESKTOP-P39CJOI', ip: '10.5.48.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+System info: host: 'DESKTOP-P39CJOI', ip: '10.5.48.38', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [32a47fbf-4500-4835-b6bd-6686104a6a1e, findElement {using=xpath, value=//*[contains(@class, 'ng-binding') and contains(text(),'$1900.00')]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:56202, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11852, moz:profile: C:\Users\hp\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:56202/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 32a47fbf-4500-4835-b6bd-6686104a6a1e]]>
+Command: [2733ba18-c8c1-410e-8e89-3db8ed410d87, findElement {using=xpath, value=//*[contains(@class, 'ng-binding') and contains(text(),'$-184.50')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:53091, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5444, moz:profile: C:\Users\hp\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:53091/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2733ba18-c8c1-410e-8e89-3db8ed410d87]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[contains(@class, 'ng-binding') and contains(text(),'$1900.00')]
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[contains(@class, 'ng-binding') and contains(text(),'$-184.50')]
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.2', revision: '9a5a329c5a'
-System info: host: 'DESKTOP-P39CJOI', ip: '10.5.48.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+System info: host: 'DESKTOP-P39CJOI', ip: '10.5.48.38', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [32a47fbf-4500-4835-b6bd-6686104a6a1e, findElement {using=xpath, value=//*[contains(@class, 'ng-binding') and contains(text(),'$1900.00')]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:56202, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11852, moz:profile: C:\Users\hp\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:56202/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 32a47fbf-4500-4835-b6bd-6686104a6a1e
+Command: [2733ba18-c8c1-410e-8e89-3db8ed410d87, findElement {using=xpath, value=//*[contains(@class, 'ng-binding') and contains(text(),'$-184.50')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:53091, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5444, moz:profile: C:\Users\hp\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:53091/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2733ba18-c8c1-410e-8e89-3db8ed410d87
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
